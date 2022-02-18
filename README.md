@@ -2,7 +2,7 @@
 
 - Simple diary creation from Android Studio. 
 
-## App basead on learning into Digital Inovation One < https://www.dio.me/ >  plataform courses. 
+## App based on learning in Digital Inovation One < https://www.dio.me/ >  plataform courses. 
 
 
 ![dio_logo](https://user-images.githubusercontent.com/87449988/154619080-78c412ed-003f-4d16-ac1e-b852b41bc37c.PNG)
