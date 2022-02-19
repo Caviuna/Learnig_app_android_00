@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.diary_droid">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.diary_droid"
+    tools:ignore="ExtraText">
+    <!-- permission for link contacts -->
+    <uses-permission android:name="android.permission.ACCEPT_HANDOVER" />
 
     <application
         android:allowBackup="true"
@@ -9,6 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Diary_droid">
+        <activity
+            android:name=".CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
