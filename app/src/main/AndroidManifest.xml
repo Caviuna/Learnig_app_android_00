@@ -4,7 +4,9 @@
     package="com.example.diary_droid"
     tools:ignore="ExtraText">
     <!-- permission for link contacts -->
-    <uses-permission android:name="android.permission.ACCEPT_HANDOVER" />
+    <uses-permission android:name="android.permission.ACCEPT_HANDOVER" /> 
+    
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
         android:allowBackup="true"

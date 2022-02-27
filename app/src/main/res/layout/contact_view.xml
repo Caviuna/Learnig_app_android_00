@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    >
 
-
-    <Button
-        android:id="@+id/bt_go_calendar_screen"
+    <TextView
+        android:id="@+id/contact_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calendar" />
+        android:textSize="20sp"
+        android:text="Name"
+        android:paddingBottom="5dp"
+        android:paddingTop="20dp"
+        />
 
-    <Button
-        android:id="@+id/bt_go_contact_screen"
+    <TextView
+        android:id="@+id/contact_phone_namber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contact" />
+        android:textSize="16sp"
+        android:text="Telefone"
+        />
+
 </LinearLayout>
