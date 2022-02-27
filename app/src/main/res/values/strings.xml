@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Diary_droid</string>
+    <string name="Click_calendar">Set Event</string>
 </resources>
